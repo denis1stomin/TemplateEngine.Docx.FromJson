@@ -35,8 +35,8 @@ namespace TemplateEngine.Docx.Runner
             }
 
             timer.Stop();
-            Console.WriteLine($"Output path: '{templatePath}'");
-            Console.WriteLine($"Time spent: '{timer.Elapsed}'");
+            Console.WriteLine($"Resolved document path: '{templatePath}'");
+            Console.WriteLine($"Time spent to resolve template: '{timer.Elapsed}'");
         }
 
         private static Content GetContent(string sourceJsonPath, IReadOnlyList<IContentItem> additionalContent)

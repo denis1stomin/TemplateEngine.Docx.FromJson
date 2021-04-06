@@ -19,5 +19,8 @@ namespace TemplateEngine.Docx.Runner
 
         [Option("finalize", Required = false, HelpText = "If set to True removes content controls from the output document.")]
         public bool FinalizeTemplate { get; set; }
+
+        [Option("convert-to", Default = null, Required = false, HelpText = "Converts final document to a target format. See https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.wdsaveformat?view=word-pia")]
+        public string ConvertToFormat { get; set; }
     }
 }

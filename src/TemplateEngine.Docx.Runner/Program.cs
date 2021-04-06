@@ -24,18 +24,24 @@ namespace TemplateEngine.Docx.Runner
 
         static void MainInner(CmdParam param)
         {
-            var finalPath = Path.GetFullPath($"{param.OutputPath}");
-            var finalPathInfo = new FileInfo(finalPath);
+            var outputAbsolutePath = Path.GetFullPath($"{param.OutputPath}");
+            var outputAbsolutePathInfo = new FileInfo(outputAbsolutePath);
 
-            if (!Directory.Exists(finalPathInfo.Directory.FullName))
-                Directory.CreateDirectory(finalPathInfo.Directory.FullName);
+            if (!Directory.Exists(outputAbsolutePathInfo.Directory.FullName))
+                Directory.CreateDirectory(outputAbsolutePathInfo.Directory.FullName);
 
-            if (param.Force && File.Exists(finalPath))
-                File.Delete(finalPath);
+            if (param.Force && File.Exists(outputAbsolutePath))
+                File.Delete(outputAbsolutePath);
 
-            File.Copy(param.TemplatePath, finalPath);
+            File.Copy(param.TemplatePath, outputAbsolutePath);
 
-            JustLogic.ResolveTemplate(param.OutputPath, param.SourcePath, param.FinalizeTemplate);
+            JustLogic.ResolveTemplate(outputAbsolutePath, Path.GetFullPath(param.SourcePath), param.FinalizeTemplate);
+
+            if (!string.IsNullOrWhiteSpace(param.ConvertToFormat))
+            {
+                var outputFolder = Path.GetFullPath(Path.GetDirectoryName(param.OutputPath));
+                DocumentFormatConvertor.Convert(outputAbsolutePath, outputFolder, param.ConvertToFormat);
+            }
         }
 
         static void NotParsed(ParserResult<CmdParam> res)
