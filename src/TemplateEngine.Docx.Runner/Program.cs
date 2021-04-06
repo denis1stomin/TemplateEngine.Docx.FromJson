@@ -1,11 +1,7 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
-using System.Collections.Generic;
 using CommandLine;
 using CommandLine.Text;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace TemplateEngine.Docx.Runner
 {
@@ -29,10 +25,15 @@ namespace TemplateEngine.Docx.Runner
         static void MainInner(CmdParam param)
         {
             var finalPath = Path.GetFullPath($"{param.OutputPath}");
+            var finalPathInfo = new FileInfo(finalPath);
+
+            if (!Directory.Exists(finalPathInfo.Directory.FullName))
+                Directory.CreateDirectory(finalPathInfo.Directory.FullName);
 
             if (param.Force && File.Exists(finalPath))
                 File.Delete(finalPath);
-            File.Copy(param.SourcePath, finalPath);
+
+            File.Copy(param.TemplatePath, finalPath);
 
             JustLogic.ResolveTemplate(param.OutputPath, param.SourcePath, param.FinalizeTemplate);
         }

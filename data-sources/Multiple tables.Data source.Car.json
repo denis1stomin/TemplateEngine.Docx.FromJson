@@ -1,0 +1,99 @@
+[
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "HeaderTitle",
+    "controlValue": "A-CLASS CAR SERVICE"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ContactPhoneNumber",
+    "controlValue": "+7 (800) 1234567 (5500)"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ContactAddress",
+    "controlValue": "Petrogradskiy, Saint-Petersburg, Russian Federation"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DocumentTitle",
+    "controlValue": "Diagnostic List"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DocumentSubtitle",
+    "controlValue": "Car information and diagnostic parameters.\r\nFor additional information please use the contact phone number above."
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsDescription",
+    "controlValue": "Diagnostic table"
+  },
+  {
+    "__type": "TableContent",
+    "controlTagSelector": "CommonInformation",
+    "tablesRows": [
+      {
+        "CommonFieldName": "Owner",
+        "CommonFieldValue": "Denis Istomin"
+      },
+      {
+        "CommonFieldName": "Owner contacts",
+        "CommonFieldValue": "+7 (777) 111-2222"
+      },
+      {
+        "CommonFieldName": "Car model",
+        "CommonFieldValue": "Mercedes CL500"
+      },
+      {
+        "CommonFieldName": "Car year",
+        "CommonFieldValue": "2016"
+      },
+      {
+        "CommonFieldName": "Car color",
+        "CommonFieldValue": "Silver metallic"
+      }
+    ]
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsHeader1",
+    "controlValue": "Component"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsHeader2",
+    "controlValue": "Related parameters"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsHeader3",
+    "controlValue": "Recommendations"
+  },
+  {
+    "__type": "TableContent",
+    "controlTagSelector": "DetailsTable",
+    "tablesRows": [
+      {
+        "DetailsFieldName": "Steering side",
+        "DetailsFieldValue": "Left",
+        "DetailsFieldComment": ""
+      },
+      {
+        "DetailsFieldName": "Tire pressure",
+        "DetailsFieldValue": "FL - 2.21\r\nFR - 2.2\r\nRL - 2.22\r\nRR - 2.21",
+        "DetailsFieldComment": "2.18 - 2.22"
+      },
+      {
+        "DetailsFieldName": "OBD Error Codes\r\nStandardized using SAE J2012 and ISO 15031-6.",
+        "DetailsFieldValue": "IP20015",
+        "DetailsFieldComment": "Check washer fluid level."
+      }
+    ]
+  },
+  {
+    "__type": "ImageContent",
+    "controlTagSelector": "SigningPicture",
+    "picturePath": "..\\..\\data-sources\\green_approved.png"
+  }
+]

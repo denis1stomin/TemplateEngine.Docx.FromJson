@@ -1,0 +1,130 @@
+[
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "HeaderTitle",
+    "controlValue": "INTERNATIONAL LIBRARY"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ContactPhoneNumber",
+    "controlValue": "We don't use phones yet"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ContactAddress",
+    "controlValue": "Somewhere in the middle of the lands"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DocumentTitle",
+    "controlValue": "Book read report"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DocumentSubtitle",
+    "controlValue": "The list of requested books by a specific Library visitor."
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsDescription",
+    "controlValue": "Books information"
+  },
+  {
+    "__type": "TableContent",
+    "controlTagSelector": "CommonInformation",
+    "tablesRows": [
+      {
+        "CommonFieldName": "Library visitor",
+        "CommonFieldValue": "Darth Vader"
+      },
+      {
+        "CommonFieldName": "Phone number",
+        "CommonFieldValue": "+7 (777) 111-2222"
+      },
+      {
+        "CommonFieldName": "Average visits number per week",
+        "CommonFieldValue": "0.8"
+      },
+      {
+        "CommonFieldName": "Last visit",
+        "CommonFieldValue": "14:15 22.05.2020 (+3)"
+      }
+    ]
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsHeader1",
+    "controlValue": "Book title"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsHeader2",
+    "controlValue": "General information"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DetailsHeader3",
+    "controlValue": "Summary of the book"
+  },
+  {
+    "__type": "TableContent",
+    "controlTagSelector": "DetailsTable",
+    "tablesRows": [
+      {
+        "DetailsFieldName": "A Short Guide to a Happy Life by Anna Quindlen",
+        "DetailsFieldValue": "Anna Quindlen\r\nOnline version is available.",
+        "DetailsFieldComment": "The only thing you have that nobody else has is control of your life. The hardest thing of all is to learn to love the journey, not the destination. Get a real life rather than frantically chasing the next level of success."
+      },
+      {
+        "DetailsFieldName": "A Technique for Producing Ideas",
+        "DetailsFieldValue": "James Webb Young",
+        "DetailsFieldComment": "An idea occurs when you develop a new combination of old elements. The capacity to bring old elements into new combinations depends largely on your ability to see relationships. All ideas follow a five-step process of 1) gathering material, 2) intensely working over the material in your mind, 3) stepping away from the problem, 4) allowing the idea to come back to you naturally, and 5) testing your idea in the real world and adjusting it based on feedback."
+      },
+      {
+        "DetailsFieldName": "Adapt",
+        "DetailsFieldValue": "Tim Harford",
+        "DetailsFieldComment": "Seek out new ideas and try new things. When trying something new, do it on a scale where failure is survivable. Seek out feedback and learn from your mistakes as you go along."
+      },
+      {
+        "DetailsFieldName": "Anything You Want",
+        "DetailsFieldValue": "Derek Sivers",
+        "DetailsFieldComment": " Too many people spend their life pursuing things that don’t actually make them happy. When you make a business, you get to make a little universe where you create all the laws. Never forget that absolutely everything you do is for your customers."
+      },
+      {
+        "DetailsFieldName": "Are You Fully Charged?",
+        "DetailsFieldValue": "Tom Rath",
+        "DetailsFieldComment": "There are three keys to being fully charged each day: doing work that provides meaning to your life, having positive social interactions with others, and taking care of yourself so you have the energy you need to do the first two things. Trying to maximize your own happiness can actually make you feel self-absorbed and lonely, but giving more can drive meaning and happiness in your life. People who spend money on experiences are happier than those who spend on material things."
+      },
+      {
+        "DetailsFieldName": "The Art of Possibility",
+        "DetailsFieldValue": "Rosamund Zander and Benjamin Zander",
+        "DetailsFieldComment": "Everything in life is an invention. If you choose to look at your life in a new way, then suddenly your problems fade away. One of the best ways to do this is to focus on the possibilities surrounding you in any situation rather than slipping into the default mode of measuring and comparing your life to others."
+      },
+      {
+        "DetailsFieldName": "The Art of Profitability",
+        "DetailsFieldValue": "Adrian Slywotzky",
+        "DetailsFieldComment": "There are many ways to make profit and it is unlikely that your business does all of them. People will pay different prices for the same thing in different situations (think: Coke in the grocery store vs. Coke in a nice restaurant). Good profit models are easy to brainstorm and hard to execute."
+      },
+      {
+        "DetailsFieldName": "The Art of War",
+        "DetailsFieldValue": "Sun Tzu",
+        "DetailsFieldComment": "Know when to fight and when not to fight: avoid what is strong and strike at what is weak. Know how to deceive the enemy: appear weak when you are strong, and strong when you are weak. Know your strengths and weaknesses: if you know the enemy and know yourself, you need not fear the result of a hundred battles."
+      },
+      {
+        "DetailsFieldName": "Bird by Bird",
+        "DetailsFieldValue": "Anne Lamott",
+        "DetailsFieldComment": "To become a better writer, you have to write more. Writing reveals the story because you have to write to figure out what you’re writing about. Don’t judge your initial work too harshly because every writer has terrible first drafts."
+      },
+      {
+        "DetailsFieldName": "Born Standing Up",
+        "DetailsFieldValue": "Steve Martin\r\nborn August 14, 1945\r\nis an American actor, comedian, writer, playwright, producer, and musician.",
+        "DetailsFieldComment": "Steve Martin was one of the most successful comedians of his generation. In his words, his career involved “10 years spent learning, 4 years spent refining, and 4 years spent in wild success.” This fantastic book provided beautiful insights not only into the details of his comedy act, but also into his early life and career development."
+      }
+    ]
+  },
+  {
+    "__type": "ImageContent",
+    "controlTagSelector": "SigningPicture",
+    "picturePath": "..\\..\\data-sources\\green_approved.png"
+  }
+]

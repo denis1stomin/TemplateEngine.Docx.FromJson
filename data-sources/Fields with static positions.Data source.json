@@ -1,0 +1,42 @@
+[
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "HeaderTitle",
+    "controlValue": "One Page Letter Carrier"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ContactPhoneNumber",
+    "controlValue": "+7 (800) 1234567 (5500)"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ContactAddress",
+    "controlValue": "Saint-Petersburg, Russian Federation"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "DocumentTitle",
+    "controlValue": "Invitation"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "FromFullName",
+    "controlValue": "Denis Istomin"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "ToFullName",
+    "controlValue": "a secret friend"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "GeneralContent",
+    "controlValue": "Dear friend!\r\nWe'd like to invite you for a dinner on Saturday, May 1st. I hope you and your family will join us in our small house to spend some good time together.\r\nBest wishes,"
+  },
+  {
+    "__type": "FieldContent",
+    "controlTagSelector": "SigningName",
+    "controlValue": "- DENIS -"
+  }
+]
